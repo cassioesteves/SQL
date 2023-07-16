@@ -18,7 +18,7 @@ Execute o seguinte script para criar uma função.
 */
 
 
-CREATE OR ALTER FUNCTION [dbo].[c](@Text VARCHAR(5000)) RETURNS VARCHAR(5000) AS BEGIN
+CREATE OR ALTER FUNCTION [dbo].[ConverterPrimeiraLetraemMaiuscula](@Text VARCHAR(5000)) RETURNS VARCHAR(5000) AS BEGIN
 	DECLARE @Index INT;
 	DECLARE @FirstChar CHAR(1);
 	DECLARE @LastChar CHAR(1);
