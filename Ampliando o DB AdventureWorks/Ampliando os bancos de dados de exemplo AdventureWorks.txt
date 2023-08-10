@@ -14,4 +14,5 @@ operações de classificação e derramamento de hash por meio do tempdb e muito
 código INSERT várias vezes para aumentar o tamanho da tabela Sales.SalesOrderHeader em aproximadamente 225 MB e para aumentar o tamanho da tabela 
 Sales.SalesOrderDetailEnlarged em aproximadamente 400 MB por execução após a reconstrução do índice São executados.
 
+
 fonte: https://www.sqlskills.com/blogs/jonathan/enlarging-the-adventureworks-sample-databases/
