@@ -107,4 +107,16 @@ from
     
 show tables;
 
-select * from vw_rel_alunos_cursos_contratos;
+use universidade_x;
+
+-- view com joins 
+select * from vw_rel_alunos_cursos_contratos as vw
+left join telefone as t on (vw.idaluno = t.fk_idaluno)
+left join endereco as e on (vw.idaluno = e.fk_idaluno);
+
+
+select * from telefone where fk_idaluno in(1,2,3,4);
+
+update telefone set fk_idaluno = 1 where fk_idaluno = 9;
+update telefone set fk_idaluno = 2 where fk_idaluno = 7;
+
