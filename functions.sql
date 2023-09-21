@@ -64,6 +64,7 @@ end
 $$
 delimiter ; 
 
+use universidade_u;
 
 /*remover function*/
 drop function universidade_x.func_data_ptbr;
